@@ -1,32 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-27T17:30:58 EET" name="Default suite" finished-at="2024-10-27T17:31:03 EET" duration-ms="4900">
+  <suite started-at="2024-10-29T13:00:47 EET" name="Default suite" finished-at="2024-10-29T13:01:06 EET" duration-ms="19634">
     <groups>
     </groups>
-    <test started-at="2024-10-27T17:30:58 EET" name="Default test" finished-at="2024-10-27T17:31:03 EET" duration-ms="4900">
+    <test started-at="2024-10-29T13:00:47 EET" name="Default test" finished-at="2024-10-29T13:01:06 EET" duration-ms="19634">
       <class name="testingAlomsafer.MyTestCases">
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:testingAlomsafer.MyTestCases@6d366c9b]" started-at="2024-10-27T17:30:58 EET" name="SetUp" finished-at="2024-10-27T17:31:03 EET" duration-ms="4545" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testingAlomsafer.MyTestCases@7859e786]" started-at="2024-10-29T13:00:47 EET" name="setUp" finished-at="2024-10-29T13:00:53 EET" duration-ms="6019" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method signature="CheckWebLungae()[pri:1, instance:testingAlomsafer.MyTestCases@6d366c9b]" started-at="2024-10-27T17:31:03 EET" name="CheckWebLungae" finished-at="2024-10-27T17:31:03 EET" duration-ms="74" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="checkWebLungae()[pri:1, instance:testingAlomsafer.MyTestCases@7859e786]" started-at="2024-10-29T13:00:53 EET" name="checkWebLungae" finished-at="2024-10-29T13:00:53 EET" duration-ms="65" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CheckWebLungae -->
-        <test-method signature="CheckCurrency()[pri:2, instance:testingAlomsafer.MyTestCases@6d366c9b]" started-at="2024-10-27T17:31:03 EET" name="CheckCurrency" finished-at="2024-10-27T17:31:03 EET" duration-ms="86" status="PASS">
+        </test-method> <!-- checkWebLungae -->
+        <test-method signature="checkCurrency()[pri:2, instance:testingAlomsafer.MyTestCases@7859e786]" started-at="2024-10-29T13:00:53 EET" name="checkCurrency" finished-at="2024-10-29T13:00:53 EET" duration-ms="68" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CheckCurrency -->
-        <test-method signature="CheckPhoneNumber()[pri:3, instance:testingAlomsafer.MyTestCases@6d366c9b]" started-at="2024-10-27T17:31:03 EET" name="CheckPhoneNumber" finished-at="2024-10-27T17:31:03 EET" duration-ms="34" status="PASS">
+        </test-method> <!-- checkCurrency -->
+        <test-method signature="checkPhoneNumber()[pri:3, instance:testingAlomsafer.MyTestCases@7859e786]" started-at="2024-10-29T13:00:53 EET" name="checkPhoneNumber" finished-at="2024-10-29T13:00:53 EET" duration-ms="43" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CheckPhoneNumber -->
-        <test-method signature="CheckQitafLogo()[pri:4, instance:testingAlomsafer.MyTestCases@6d366c9b]" started-at="2024-10-27T17:31:03 EET" name="CheckQitafLogo" finished-at="2024-10-27T17:31:03 EET" duration-ms="55" status="PASS">
+        </test-method> <!-- checkPhoneNumber -->
+        <test-method signature="checkQitafLogo()[pri:4, instance:testingAlomsafer.MyTestCases@7859e786]" started-at="2024-10-29T13:00:53 EET" name="checkQitafLogo" finished-at="2024-10-29T13:00:53 EET" duration-ms="58" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CheckQitafLogo -->
+        </test-method> <!-- checkQitafLogo -->
+        <test-method signature="checkIfSearchHotelIsSelected()[pri:5, instance:testingAlomsafer.MyTestCases@7859e786]" started-at="2024-10-29T13:00:53 EET" name="checkIfSearchHotelIsSelected" finished-at="2024-10-29T13:00:53 EET" duration-ms="276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkIfSearchHotelIsSelected -->
+        <test-method signature="checkFlightDeparture()[pri:6, instance:testingAlomsafer.MyTestCases@7859e786]" started-at="2024-10-29T13:00:53 EET" name="checkFlightDeparture" finished-at="2024-10-29T13:00:55 EET" duration-ms="1608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFlightDeparture -->
+        <test-method signature="checkFlightReturn()[pri:7, instance:testingAlomsafer.MyTestCases@7859e786]" started-at="2024-10-29T13:00:55 EET" name="checkFlightReturn" finished-at="2024-10-29T13:00:55 EET" duration-ms="417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFlightReturn -->
+        <test-method signature="chuangenLaungeRandomly()[pri:8, instance:testingAlomsafer.MyTestCases@7859e786]" started-at="2024-10-29T13:00:55 EET" name="chuangenLaungeRandomly" finished-at="2024-10-29T13:00:58 EET" duration-ms="2679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chuangenLaungeRandomly -->
+        <test-method signature="chuangenLaungeRandomly()[pri:8, instance:testingAlomsafer.MyTestCases@7859e786]" started-at="2024-10-29T13:00:58 EET" name="chuangenLaungeRandomly" finished-at="2024-10-29T13:01:00 EET" duration-ms="2096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chuangenLaungeRandomly -->
+        <test-method signature="chuangenLaungeRandomly()[pri:8, instance:testingAlomsafer.MyTestCases@7859e786]" started-at="2024-10-29T13:01:00 EET" name="chuangenLaungeRandomly" finished-at="2024-10-29T13:01:02 EET" duration-ms="2162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chuangenLaungeRandomly -->
+        <test-method signature="chuangenLaungeRandomly()[pri:8, instance:testingAlomsafer.MyTestCases@7859e786]" started-at="2024-10-29T13:01:02 EET" name="chuangenLaungeRandomly" finished-at="2024-10-29T13:01:04 EET" duration-ms="2065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chuangenLaungeRandomly -->
+        <test-method signature="chuangenLaungeRandomly()[pri:8, instance:testingAlomsafer.MyTestCases@7859e786]" started-at="2024-10-29T13:01:04 EET" name="chuangenLaungeRandomly" finished-at="2024-10-29T13:01:06 EET" duration-ms="1973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chuangenLaungeRandomly -->
       </class> <!-- testingAlomsafer.MyTestCases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

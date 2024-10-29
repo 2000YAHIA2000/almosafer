@@ -5,8 +5,8 @@
     <classes>
       <class name="testingAlomsafer.MyTestCases">
         <methods>
-          <include name="SetUp"/>
-          <include name="CheckPhoneNumber"/>
+          <include name="chuangenLaungeRandomly"/>
+          <include name="setUp"/>
         </methods>
       </class> <!-- testingAlomsafer.MyTestCases -->
     </classes>
