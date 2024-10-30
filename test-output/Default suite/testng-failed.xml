@@ -5,8 +5,9 @@
     <classes>
       <class name="testingAlomsafer.MyTestCases">
         <methods>
-          <include name="chuangenLaungeRandomly"/>
+          <include name="choseNumberOfGuests"/>
           <include name="setUp"/>
+          <include name="checkLostPrice"/>
         </methods>
       </class> <!-- testingAlomsafer.MyTestCases -->
     </classes>
